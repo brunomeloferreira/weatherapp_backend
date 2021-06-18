@@ -29,10 +29,10 @@ if (isset($name) && trim($name)) {
         echo json_encode([
             "msg" => "POST was not successful"
         ]);
+        
     }
 } else {
     echo json_encode([
-        "msg" => "Please insert location",
-        "test" => $name
+        "msg" => "Please insert location"
     ]);
 }
